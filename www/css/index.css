@@ -1,0 +1,126 @@
+
+
+body {
+    background-image: url("https://images.wallpaperscraft.com/image/surface_dark_background_texture_50754_1920x1080.jpg");
+    background-attachment:fixed;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+:root{
+    --gutter:15px;
+}
+
+.app {
+    padding: var(--gutter) 0;
+    display: grid;
+    grid-gap: var(--gutter) 0;
+    grid-template-columns: var(--gutter) 1fr var(--gutter);
+    align-content: start;
+}
+
+.app > * {
+    grid-column: 2 / -2;
+}
+
+.app > .full {
+    grid-column: 2 / -2;
+}
+
+.hs {
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: repeat(10, calc(50% - var(--gutter) * 2));
+    grid-template-rows: minmax(150px, 1fr);
+
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+p, h4, h5{
+    color: wheat;
+}
+
+
+.title{
+    color: wheat;
+}
+
+#movies img,#movies img{
+    width: 70%;
+}
+
+#my_movies img,#my_movies img{
+    width: 100%;
+}
+
+#star_outer{
+    position:relative;
+    display:inline-block;
+}
+
+#star_inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+#star_outer::before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #ccc;
+}
+
+#star_inner::before {
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+}
+
+#rating{
+    color:wheat;
+}
+
+#map {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+#second_map {
+    height: 300px;
+    width: 95%;
+    margin: auto;
+}
+
+#remove{
+    display: none;
+}
+
+#not_found{
+    margin: auto;
+}
+
+.labeling{
+    font-weight: bold;
+    width: 70%;
+}
+
+
+
+
+
+
+
