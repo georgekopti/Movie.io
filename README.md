@@ -6,9 +6,8 @@ The aimed solution is to allow people to keep track of the movies they want to w
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+    <img src="![1RVVQ_BJv6MewiVDi6KX3seF4JhS6perIDwsdlAI4sg](https://user-images.githubusercontent.com/55857493/151739161-f8df355e-abb5-4756-a491-30b4a15a3189.png)
+" alt="Logo" width="80" height="80">
 
   <h3 align="center">Best-README-Template</h3>
 
